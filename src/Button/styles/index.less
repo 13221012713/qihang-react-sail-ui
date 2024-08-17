@@ -1,0 +1,64 @@
+// src/Button/styles/index.less
+@import '../../variables.less';
+
+.dumi-btn {
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  text-align: center;
+  transition: all .3s;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  &.is-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  &.dumi-btn-primary {
+    background-color: #007bff;
+    color: white;
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.dumi-btn-default {
+  background: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+
+  &:hover {
+    color: @dumi-primary;
+    border-color: @dumi-primary;
+  }
+}
+
+.dumi-btn-primary {
+  color: #fff;
+  background: @dumi-primary;
+  border: 1px solid @dumi-primary;
+}
+
+.dumi-btn-icon {
+  margin-right: 8px; // 调整图标和文字的间距
+}
+
+.dumi-btn-loading {
+  margin-left: 8px; // 调整加载指示和文字的间距
+}
+
+.dumi-btn-large {
+  height: 50px;
+  font-size: 18px;
+}
+
+.dumi-btn-medium {
+  height: 40px;
+  font-size: 16px;
+}
+
+.dumi-btn-small {
+  height: 30px;
+  font-size: 14px;
+}
