@@ -1,0 +1,59 @@
+.alert {
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+
+  &-info {
+    background-color: #2196f3;
+    border-color: #0d8aee;
+  }
+
+  &-success {
+    background-color: #4caf50;
+    border-color: #449d48;
+  }
+
+  &-warning {
+    background-color: #ff9800;
+    border-color: #e68900;
+  }
+
+  &-error {
+    background-color: #f44336;
+    border-color: #ea1c0d;
+  }
+
+  &-close {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  &-closable {
+    position: relative;
+    padding-right: 30px; // 确保关闭按钮有足够的空间
+  }
+}
+
+.alert-close {
+  position: absolute;
+  top: 0.25rem; // 根据 Alert 内边距调整
+  bottom: 0.25rem;
+  right: 0.5rem; // 根据 Alert 内边距调整
+  padding: 0.25rem; // 确保按钮有足够的点击区域
+  cursor: pointer;
+  font-size: 1.5rem; // 根据需要调整
+  background-color: rgba(255, 255, 255, 0.2); // 轻微的背景色，确保按钮在深色背景上可见
+  border: none;
+  border-radius: 0.25rem; // 轻微的圆角
+  opacity: 0.8; // 轻微透明，点击时可增加交互感
+
+  &:hover {
+    opacity: 1; // 鼠标悬浮时增加透明度
+  }
+}

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723898582299" clover="3.2.0">
-  <project timestamp="1723898582299" name="All files">
-    <metrics statements="9" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="1" elements="14" coveredelements="9" complexity="0" loc="9" ncloc="9" packages="2" files="2" classes="2"/>
+<coverage generated="1723903805951" clover="3.2.0">
+  <project timestamp="1723903805952" name="All files">
+    <metrics statements="24" coveredstatements="7" conditionals="22" coveredconditionals="12" methods="6" coveredmethods="1" elements="52" coveredelements="20" complexity="0" loc="24" ncloc="24" packages="3" files="3" classes="3"/>
     <package name="Button">
-      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="7" conditionals="15" coveredconditionals="12" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="C:\Users\humph\Desktop\qihang-ui\src\Button\index.tsx">
-        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="15" coveredconditionals="12" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="4" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="36" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Foo">
@@ -21,6 +22,26 @@
         <line num="1" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Modal">
+      <metrics statements="14" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="index.tsx" path="C:\Users\humph\Desktop\qihang-ui\src\Modal\index.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
       </file>
     </package>
   </project>

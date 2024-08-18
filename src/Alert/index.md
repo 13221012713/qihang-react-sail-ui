@@ -1,17 +1,17 @@
 ---
 category: Components
-title: Modal 弹窗 # 组件的标题，会在菜单侧边栏展示
+title: Alert 警告 # 组件的标题，会在菜单侧边栏展示
 toc: content # 在页面右侧展示锚点链接
 group: # 分组
   title: 基础组件 # 所在分组的名称
   order: 1 # 分组排序，值越小越靠前
 ---
 
-# Modal 弹窗
+# Alert 警告
 
 ## 介绍
 
-基础的弹窗组件 Modal。
+基础的警告组件 Alert。
 
 ## 示例 
 
